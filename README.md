@@ -15,7 +15,7 @@ This project demonstrates how to containerize a simple Nginx web server using Do
 
 ---
 
-## 📄 What’s Inside
+## What’s Inside
 
 - **Dockerfile** – Builds an Ubuntu-based Docker image, installs Nginx, and sets it up to serve the HTML file.
 - **myapp/index.html** – A simple HTML file served by Nginx.
@@ -23,7 +23,7 @@ This project demonstrates how to containerize a simple Nginx web server using Do
 
 ---
 
-## 🛠 Built With
+##  Built With
 
 - Docker
 - Nginx
@@ -31,7 +31,7 @@ This project demonstrates how to containerize a simple Nginx web server using Do
 
 ---
 
-##  How to Use
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -56,7 +56,10 @@ docker run -p 80:80 my_nginx_image
 
 ### 4. Access the Web Server
 
-Open your web browser and navigate to [http://localhost:80](http://localhost:80) to see your Nginx web server serving the simple HTML page.
+Open your web browser and navigate to [http://localhost:80](http://localhost) to see your Nginx web server serving the simple HTML page.
 
 
 ![DOCKERP2](https://github.com/user-attachments/assets/19a2f421-ee13-4aa1-8b3d-c344a80053ae)
+
+### License
+This project is licensed under the MIT License.
