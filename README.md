@@ -34,17 +34,21 @@ This project demonstrates how to containerize a simple Nginx web server using Do
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/YOUR-USERNAME/docker-nginx-static.git
 cd docker-nginx-static
+```
 
 # Build the Docker Image
+
 ```
 docker build -t my_nginx_image .
 ```
+
 ![DOCKERP1](https://github.com/user-attachments/assets/b204ed01-c3eb-401f-b746-2a6b79402e0f)
 
 # Run the Docker Container
+
 ```
 docker run -p 80:80 my_nginx_image
 ```
