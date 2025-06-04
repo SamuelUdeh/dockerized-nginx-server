@@ -56,7 +56,7 @@ docker run -p 80:80 my_nginx_image
 
 ### 4. Access the Web Server
 
-Open your web browser and navigate to [http://localhost:80](http://localhost) to see your Nginx web server serving the simple HTML page.
+Open your web browser and navigate to [http://localhost](http://localhost) to see your Nginx web server serving the simple HTML page.
 
 
 ![DOCKERP2](https://github.com/user-attachments/assets/19a2f421-ee13-4aa1-8b3d-c344a80053ae)
