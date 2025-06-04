@@ -1,4 +1,4 @@
-#  Dockerized Nginx Web Server
+#  Dockerizing An Nginx Web Server
 
 This project demonstrates how to containerize a simple Nginx web server using Docker. A minimal HTML page is served from within the container, making it easy to deploy a static website in a lightweight, portable way.
 
